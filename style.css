@@ -17,14 +17,6 @@ padding:10px;
 font-family: 'Play', sans-serif;
 font-size: 25px;
 
--webkit-transform: translateY(-60px);
--webkit-animation: slideDown 2s 0s 1 ease forwards;
--moz-transform:    translateY(-60px);
--moz-animation:    slideDown 2s 0s 1 ease forwards;
-
-}
-.infobox.animateit{
-
 }
 
 .main_page {
@@ -68,14 +60,4 @@ position: fixed;
 bottom: 0px;
 background-color: white;
 text-align: center;
-}
-
-
-@-webkit-keyframes slideDown {
-    0%, 100% { -webkit-transform: translateY(-60px); }
-    10%, 90% { -webkit-transform: translateY(0px); }
-}
-@-moz-keyframes slideDown {
-    0%, 100% { -moz-transform: translateY(-60px); }
-    10%, 90% { -moz-transform: translateY(0px); }
 }
