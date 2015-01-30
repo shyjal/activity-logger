@@ -1,0 +1,81 @@
+
+h1 {
+font: 72px/1.5 'Pacifico', Helvetica, sans-serif;
+color:#404d5b;
+}
+.infobox{
+display: none; 
+position: fixed;
+right: 20px;
+top:20px;
+width:300px;
+height: 20px;
+background-color: #000;
+color: #fff;
+opacity: 0.6;
+padding:10px;
+font-family: 'Play', sans-serif;
+font-size: 25px;
+
+-webkit-transform: translateY(-60px);
+-webkit-animation: slideDown 2s 0s 1 ease forwards;
+-moz-transform:    translateY(-60px);
+-moz-animation:    slideDown 2s 0s 1 ease forwards;
+
+}
+.infobox.animateit{
+
+}
+
+.main_page {
+margin: auto;
+background-color: #fff;
+width: 450px;
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 10px;
+
+}
+#acitvity_input{
+margin: auto;
+width: 218px;
+}
+#activity_name{
+width: 150px;
+height: 25px;
+padding-left: 5px;
+}
+#adder{
+width: 50px;
+height: 31px;	
+}
+
+#activitybox{
+margin: auto;
+width: 450px;
+margin-top: 50px;
+table-layout: fixed;
+}
+
+.activity{
+	padding: 10px;
+}
+
+.footer {
+width: 100%;
+margin: auto;
+position: fixed;
+bottom: 0px;
+background-color: white;
+text-align: center;
+}
+
+
+@-webkit-keyframes slideDown {
+    0%, 100% { -webkit-transform: translateY(-60px); }
+    10%, 90% { -webkit-transform: translateY(0px); }
+}
+@-moz-keyframes slideDown {
+    0%, 100% { -moz-transform: translateY(-60px); }
+    10%, 90% { -moz-transform: translateY(0px); }
+}
